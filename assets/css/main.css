@@ -1,0 +1,77 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+  /* Enlaza la tipografia Open Sans */
+}
+
+a{
+ color: #373B47;
+ text-decoration: none;
+}
+
+a:hover{
+ color: #FF00BF;
+}
+
+p{
+	text-align: center;
+}
+
+ footer{
+background-color: #333447;
+color: white;
+padding-bottom: 10px;
+padding-top: 30px;
+ }
+
+#home{
+	height: 600px;
+	margin-top: 70px;
+
+	background-color: #412172;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+	color: whitesmoke;
+}
+
+#home.flex-container{
+	flex-direction: column;
+	text-align: left;
+	align-items: flex-start;
+
+}
+
+#home.flex-container.section-info-phone{
+	flex-direction: row;
+	justify-content: flex-end;
+}
+
+#ultima-section.flex-container{
+	flex-direction: row;
+	justify-content: center;
+	align-items:center;
+	justify-content: space-around;
+	color: white;
+}
+
+#ultima-section.flex-container a{
+	color: white;
+}
+
+#ultima-section.flex-container a:hover{
+ color: #FF00BF; 
+}
+
+hr{
+	width: 50%;
+}

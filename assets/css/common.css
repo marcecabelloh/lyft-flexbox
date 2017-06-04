@@ -1,0 +1,95 @@
+/*
+ * Clases reutilizables para el proyecto
+ * (Aquí pueden ir las clases de tu grid)
+ */
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.link{
+    font-weight: 700;
+    padding: 21px;
+    display: inline-block;
+    color: #333447;
+}
+
+/* Contenedor Flexbox*/
+.flex-container{
+	display: flex;
+}
+
+.menu{
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.menu.flex-container{
+	justify-content: flex-start;
+}
+
+.logo-container{
+	margin-left: auto;
+	margin-right: 20px;
+
+}
+
+.flex-container .logo{
+	width: 70px;
+	height: 70px;
+}
+
+.text-home{
+	font-size: 2.4em;
+}
+
+
+.menu{
+	background-color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+.phone{
+	width: 315px;
+}
+
+.flex-container.section-info{
+	flex-direction:column;
+	align-items: flex-start;
+
+}
+
+.img-logo{
+	width: 10%;
+}
+
+.socialbtns{
+	width: 30px;
+
+}
+
+.redes-sociales{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.enlaces{
+text-align: center;
+padding-left: 30px;
+
+
+}
