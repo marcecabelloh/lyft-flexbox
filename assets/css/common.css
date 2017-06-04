@@ -27,28 +27,6 @@
 	display: flex;
 }
 
-.menu{
-	background-color: white;
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-}
-
-.menu.flex-container{
-	justify-content: flex-start;
-}
-
-.logo-container{
-	margin-left: auto;
-	margin-right: 20px;
-
-}
-
-.flex-container .logo{
-	width: 70px;
-	height: 70px;
-}
 
 .text-home{
 	font-size: 2.4em;
@@ -61,10 +39,6 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-}
-
-.phone{
-	width: 315px;
 }
 
 .flex-container.section-info{
@@ -90,6 +64,5 @@
 .enlaces{
 text-align: center;
 padding-left: 30px;
-
 
 }

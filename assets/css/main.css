@@ -1,64 +1,178 @@
 body {
-  font-family: 'Open Sans', sans-serif;
-  margin: 0 auto;
-  font-size: 16px;
-  line-height: 1.71429;
-  background-color: #fff;
-  /* Enlaza la tipografia Open Sans */
+	font-family: 'Montserrat', sans-serif;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 1.71429;
+	background-color: #fff;
+	/* Enlaza la tipografia Open Sans */
 }
 
 a{
- color: #373B47;
- text-decoration: none;
+	color: #373B47;
+	text-decoration: none;
 }
 
 a:hover{
- color: #FF00BF;
+	color: #FF00BF;
 }
 
 p{
 	text-align: center;
 }
 
- footer{
-background-color: #333447;
-color: white;
-padding-bottom: 10px;
-padding-top: 30px;
- }
+#navegador{
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	padding-top: 24px;
+	padding-bottom: 8px;
+	z-index: 1000;
+	padding-right: 40px;
+	left:  0px;	
+	right: 0px;
+}
 
+#navegador.flex-container{
+	justify-content: flex-end;
+	align-items: center;
+	margin-right: 40px;
+}
+
+.logo{
+	width: 60px;
+	margin-left: auto;
+	padding-left: 80px;
+	overflow: hidden;
+}
+
+.login{
+	display: inline-block;
+	padding: 20px 40px;
+	text-decoration: none;
+	color: white;
+	font-size: 1.2em;
+	margin-left: 10px;
+}
+
+.login{
+	padding: 10px 20px;
+	border: 1px solid white;
+	border-radius: 10%;
+}
+
+.nav-hide{
+	visibility: hidden;
+}
+
+#navegador a:hover{
+	color: #ff00bf;
+}
+
+/*termino estilo navegador*/
+
+/*section información*/
 #home{
 	height: 600px;
-	margin-top: 70px;
-
-	background-color: #412172;
-	background-position: center;
-	background-size: cover;
-	background-attachment: fixed;
-	background-repeat: no-repeat;
-
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-
-	color: whitesmoke;
+	margin-top: 100px;
+	background: linear-gradient(rgb(127,0,127),#2b1e66);
+	width: auto;
+	padding: 0 40px 0 100px;
+	color: white;
 }
 
 #home.flex-container{
-	flex-direction: column;
-	text-align: left;
-	align-items: flex-start;
-
-}
-
-#home.flex-container.section-info-phone{
 	flex-direction: row;
-	justify-content: flex-end;
 }
+
+.section-info1, .section-info3, .section-info3{
+	padding: 0 0 10px 30px;
+	padding-left: 0px;
+	padding-top:50px;
+	padding-right: 100px;
+}
+
+p{
+	padding-right: 30px;
+}
+
+.phone{
+	width: 600px;
+	height: 700px;
+	overflow: hidden;	
+	position: relative;
+	left: 80px;
+	padding-top: 65px;
+
+}
+
+.phone img{
+	width: 450px;
+
+}
+
+/*sección videos*/
+/*video 1*/
+
+#video1.flex-container{
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+	padding: 0 0 0 20px;
+	height: 480px;	
+}
+
+.class-video1{
+	width: 400px;
+	background-color: white;
+	padding: 80px 40px;
+	position: relative;
+	box-sizing: inherit;
+	
+}
+
+/*video 2*/ 
+
+#video2.flex-container{
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+	padding: 0px;
+	height: 480px;	
+}
+
+.video-june{
+	width: 400px;
+	background-color: white;
+	padding: 80px 40px;
+	position: relative;
+	box-sizing: inherit;
+	
+}
+
+/*video 3*/
+
+#video3.flex-container{
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+	padding: 0;
+	height: 480px;	
+}
+
+.class-video3{
+	width: 400px;
+	background-color: white;
+	padding: 80px 40px;
+	position: relative;
+	box-sizing: inherit;
+}
+
+
+/*última sección y footer*/
 
 #ultima-section.flex-container{
 	flex-direction: row;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items:center;
 	justify-content: space-around;
 	color: white;
@@ -69,9 +183,23 @@ padding-top: 30px;
 }
 
 #ultima-section.flex-container a:hover{
- color: #FF00BF; 
+	color: #FF00BF; 
 }
+
+/*footer*/
+footer{
+	background-color: #333447;
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 30px;
+}
+
 
 hr{
 	width: 50%;
+}
+
+.socialbtns img:hover{
+	color: #FF00BF;
+
 }
