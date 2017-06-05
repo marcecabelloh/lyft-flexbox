@@ -199,7 +199,12 @@ hr{
 	width: 50%;
 }
 
-.socialbtns img:hover{
-	color: #FF00BF;
+.socialbtns{
+padding: 20px;
+
+}
+
+.socialbtns:hover{
+	color: white;
 
 }
