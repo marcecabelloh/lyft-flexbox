@@ -1,26 +1,17 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	margin: 0 auto;
+	padding: 0;
+	overflow-x: hidden;
 	font-size: 16px;
 	line-height: 1.71429;
 	background-color: #fff;
 	/* Enlaza la tipografia Open Sans */
 }
 
-a{
-	color: #373B47;
-	text-decoration: none;
-}
-
-a:hover{
-	color: #FF00BF;
-}
-
-p{
-	text-align: center;
-}
 
 #navegador{
+	background-color: rgb(#76278F,255,255,05);
 	position: fixed;
 	width: 100%;
 	height: 80px;
@@ -32,17 +23,35 @@ p{
 	right: 0px;
 }
 
-#navegador.flex-container{
+.lista-menu{
+	display: flex;
+	margin-top: -30px;
 	justify-content: flex-end;
-	align-items: center;
 	margin-right: 40px;
+}
+
+ul li{
+	display: inline-block;
+	padding:20px;
+}
+
+
+ul li a{
+	display: inline-block;
+	color: #fff;
+	text-align: center;
+	text-decoration:none;
+	cursor: pointer;
+}
+
+ul li a:hover{
+	color: #FF00BF;
 }
 
 .logo{
 	width: 60px;
-	margin-left: auto;
-	padding-left: 80px;
-	overflow: hidden;
+	margin-top: 30px;
+	margin-left: 30px;
 }
 
 .login{
@@ -70,10 +79,21 @@ p{
 
 /*termino estilo navegador*/
 
+/*estilo a sección home con video*/
+
+.video{
+	max-width: 100%;
+	height: 100%;
+}
+
+.video-contenedor{
+	overflow: hidden;
+}
+
 /*section información*/
 #home{
 	height: 600px;
-	margin-top: 100px;
+	margin-top: -60px;
 	background: linear-gradient(rgb(127,0,127),#2b1e66);
 	width: auto;
 	padding: 0 40px 0 100px;
@@ -180,6 +200,7 @@ p{
 
 #ultima-section.flex-container a{
 	color: white;
+	text-decoration: none;
 }
 
 #ultima-section.flex-container a:hover{
@@ -192,6 +213,7 @@ footer{
 	color: white;
 	padding-bottom: 10px;
 	padding-top: 30px;
+	text-align: center;
 }
 
 
@@ -207,4 +229,17 @@ padding: 20px;
 .socialbtns:hover{
 	color: white;
 
+}
+
+/*nuevoNav creado desde js le doy caracteristicas en css*/
+
+.nuevoNav{
+	width: 100%;
+	height: 65px;
+	padding: 20px;
+	position: fixed;
+	background:#fff;
+	color: #000;
+	top: 0;
+	left: 0;
 }
